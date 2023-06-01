@@ -5,31 +5,36 @@ const navMenu = document.getElementById("nav-menu"),
 
 /*===== MENU SHOW =====*/
 function resume() {
-  window.open(
-    "https://drive.google.com/file/d/1DK7RBPbgWlFCgsKK7wCeuPQ58943mc7t/view?usp=sharing",
-    "_blank"
-  )
+  window.open("../pdf/Ruchi-Upadhyay-Resume.pdf", "_blank")
 }
 /* resume-link-1 */
-// var resumeLink = document.querySelector("#resume-button-1")
-// resumeLink.addEventListener("click", function (event) {
-//   event.preventDefault()
-//   window.open("packages/pdf/Arsh-Goyal-Resume.pdf", "_blank")
-//   let link = document.createElement("a")
-//   link.href = "packages/pdf/Arsh-Goyal-Resume.pdf"
-//   link.download = "packages/pdf/Arsh-Goyal-Resume.pdf"
-//   link.click()
-// })
+var resumeLink = document.querySelector("#resume-button-1")
+resumeLink.addEventListener("click", function (event) {
+  event.preventDefault()
+  window.open(
+    "https://drive.google.com/file/d/1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu/view?usp=sharing",
+    "_blank"
+  )
+  let link = document.createElement("a")
+  link.href =
+    "https://drive.google.com/uc?export=download&id=1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu"
+  link.download = "Ruchi-Upadhyay-Resume"
+  link.click()
+})
 
-// var resumeLink2 = document.querySelector("#resume-button-2")
-// resumeLink2.addEventListener("click", function (event) {
-//   event.preventDefault()
-//   window.open("packages/pdf/Arsh-Goyal-Resume.pdf", "_blank")
-//   let link = document.createElement("a")
-//   link.href = "packages/pdf/Arsh-Goyal-Resume.pdf"
-//   link.download = "packages/pdf/Arsh-Goyal-Resume.pdf"
-//   link.click()
-// })
+var resumeLink2 = document.querySelector("#resume-button-2")
+resumeLink2.addEventListener("click", function (event) {
+  event.preventDefault()
+  window.open(
+    "https://drive.google.com/file/d/1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu/view?usp=sharing",
+    "_blank"
+  )
+  let link = document.createElement("a")
+  link.href =
+    "https://drive.google.com/uc?export=download&id=1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu"
+  link.download = "Ruchi-Upadhyay-Resume"
+  link.click()
+})
 
 /* Validate if constant exists */
 if (navToggle) {

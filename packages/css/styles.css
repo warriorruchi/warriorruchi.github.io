@@ -408,6 +408,35 @@ img {
   color: var(--first-color-alt);
 }
 
+.github__stats__1 {
+  width: 70%;
+  padding: 5px;
+  /* border: 0.5px solid grey; */
+}
+/* .github__stats__1 > div:nth-child(2) {
+  display: none;
+  position: absolute;
+}
+.github__stats__1 > div:nth-child(3) {
+  display: none;
+  position: absolute;
+}
+.github__stats__1 > div:nth-child(4) {
+  display: none;
+  position: absolute;
+} */
+.github__stats {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  place-items: center;
+  margin: auto;
+  /* border: 0.5px solid rgba(128, 128, 128, 0.5); */
+}
+.stats {
+  width: 70%;
+}
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
@@ -1064,7 +1093,13 @@ img {
   .home__button {
     font-size: 20px;
   }
-
+  .github__stats {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .github__stats__1 {
+    width: 100%;
+  }
   .skills__title {
     font-size: var(--normal-font-size);
   }
@@ -1104,7 +1139,15 @@ img {
     text-align: center;
   }
 }
-
+@media screen and (min-width: 380px) {
+  .github__stats {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .github__stats__1 {
+    width: 100%;
+  }
+}
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -1126,6 +1169,13 @@ img {
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .github__stats {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .github__stats__1 {
+    width: 100%;
   }
 
   .qualification__sections {
@@ -1214,6 +1264,13 @@ img {
     .about__buttons {
       justify-content: initial;
     }
+    .github__stats {
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .github__stats__1 {
+      width: 100%;
+    }
     .qualification__tabs {
       justify-content: center;
     }
@@ -1299,6 +1356,13 @@ img {
   }
   .services__container {
     grid-template-columns: repeat(1, 238px);
+  }
+  .github__stats {
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .github__stats__1 {
+    width: 70%;
   }
   .portfolio__content {
     column-gap: 5rem;
