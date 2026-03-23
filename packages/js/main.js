@@ -12,12 +12,12 @@ var resumeLink = document.querySelector("#resume-button-1")
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault()
   window.open(
-    "https://drive.google.com/file/d/1XUDEadNvx1RngKF-5JNeGELhphwgFftp/view?usp=sharing",
+    "https://drive.google.com/file/d/1XJlheFbxB0acpxnuOm0NqzjDhk_icPdq/view?usp=sharing",
     "_blank"
   )
   let link = document.createElement("a")
   link.href =
-    "https://drive.google.com/file/d/1XUDEadNvx1RngKF-5JNeGELhphwgFftp/view?usp=sharing"
+    "https://drive.google.com/file/d/1XJlheFbxB0acpxnuOm0NqzjDhk_icPdq/view?usp=sharing"
   link.download = "Ruchi-Upadhyay-Resume"
   link.click()
 })
@@ -26,12 +26,12 @@ var resumeLink2 = document.querySelector("#resume-button-2")
 resumeLink2.addEventListener("click", function (event) {
   event.preventDefault()
   window.open(
-    "https://drive.google.com/file/d/1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu/view?usp=sharing",
+    "https://drive.google.com/file/d/1XJlheFbxB0acpxnuOm0NqzjDhk_icPdq/view?usp=sharing",
     "_blank"
   )
   let link = document.createElement("a")
   link.href =
-    "https://drive.google.com/file/d/1XUDEadNvx1RngKF-5JNeGELhphwgFftp/view?usp=sharing"
+    "https://drive.google.com/file/d/1XJlheFbxB0acpxnuOm0NqzjDhk_icPdq/view?usp=sharing"
   link.download = "Ruchi-Upadhyay-Resume"
   link.click()
 })
