@@ -5,19 +5,19 @@ const navMenu = document.getElementById("nav-menu"),
 
 /*===== MENU SHOW =====*/
 function resume() {
-  window.open("../pdf/Ruchi-Upadhyay-Resume.pdf", "_blank")
+  window.open("../pdf/Ruchi Upadhyay CV MBA-BA 2025-2027 (2).pdf", "_blank")
 }
 /* resume-link-1 */
 var resumeLink = document.querySelector("#resume-button-1")
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault()
   window.open(
-    "https://drive.google.com/file/d/1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu/view?usp=sharing",
+    "https://drive.google.com/file/d/1XUDEadNvx1RngKF-5JNeGELhphwgFftp/view?usp=sharing",
     "_blank"
   )
   let link = document.createElement("a")
   link.href =
-    "https://drive.google.com/uc?export=download&id=1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu"
+    "https://drive.google.com/file/d/1XUDEadNvx1RngKF-5JNeGELhphwgFftp/view?usp=sharing"
   link.download = "Ruchi-Upadhyay-Resume"
   link.click()
 })
@@ -31,7 +31,7 @@ resumeLink2.addEventListener("click", function (event) {
   )
   let link = document.createElement("a")
   link.href =
-    "https://drive.google.com/uc?export=download&id=1Vt-VxwFWiKhGAjftLtk-aSdsQsnwfiXu"
+    "https://drive.google.com/file/d/1XUDEadNvx1RngKF-5JNeGELhphwgFftp/view?usp=sharing"
   link.download = "Ruchi-Upadhyay-Resume"
   link.click()
 })
